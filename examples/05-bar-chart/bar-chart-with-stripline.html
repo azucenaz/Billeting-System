@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		window.onload = function () {
+			var chart = new CanvasJS.Chart("chartContainer",
+			{
+				title: {
+					text: "Oil Reserves and Production "
+				},
+				axisY: {
+					stripLines: [{
+						value: 143650,
+						label: "Average",
+						showOnTop: true
+					}
+					]
+				},
+
+				data: [
+				{
+					type: "bar",
+
+					dataPoints: [
+						{ x: 10, y: 267017, label: "Year" },
+						{ x: 20, y: 116000, label: "Month" },
+						{ x: 30, y: 20682, label: "Today" }
+					]
+				}
+				]
+			});
+
+			chart.render();
+		}
+	</script>
+	<script src="../../canvasjs.min.js"></script>
+	<title>CanvasJS Example</title>
+</head>
+<body>
+	<div id="chartContainer" style="height: 400px; width: 100%;">
+	</div>
+</body>
+</html>
