@@ -78,13 +78,6 @@ $_SESSION['active'] = 'ameneties-mp';
 	            	echo isset($_SESSION['message']) ? $_SESSION['message'] : '';
 	            	unset($_SESSION['message']);
 	            	?>
-	            	
-	            	
-
-
-	            	<!-- <div class="row">
-	            		<div class="col-md-12" style="padding-bottom:10px;">
-	            			<!-- <button class="btn btn-primary" data-target="#addameneties" data-toggle="modal">NEW AMENETY</button><br> -->
 	            			
 	            			<div class="modal fade" id="addameneties">
 					            <div class="modal-dialog ">
